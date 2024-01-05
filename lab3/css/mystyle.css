@@ -1,0 +1,110 @@
+body {
+    font-family: arial;
+    background-color: #e7eaef;
+}
+
+h1{
+    color:hwb(50 5% 15%);
+}
+
+/*ปุ่มสี*/
+.button1 {
+    display: inline-block;
+    padding: 10px 10px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    border-radius: 15px;
+    color: hsl(184, 66%, 86%);
+    background-color: rgb(55, 153, 218);
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+}
+
+.button1:hover,
+.button1:active {
+    background-color: black;
+}
+
+.box {
+    flex-direction: row;
+}
+
+/*timetable*/
+body    {
+    font-family: arial;
+    background-color: rgb(185, 179, 175);
+    text-decoration: none;
+}
+
+h1  {
+    color: rgb(255, 255, 255);
+}
+
+.timeheader {
+    font-family: "tahoma";
+    font-size: 12px;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+.samefont {
+    font-family: "tahoma";
+    font-size: 13px;
+}
+
+.samefont2 {
+    font-family: "tahoma";
+    font-size: 25px;
+    color: #A9B6C7;
+    font-weight: bold;
+}
+
+.samefont3 {
+    font-family: "tahoma";
+    font-size: 13px;
+    color: #0000FF;
+}
+.samefont4 {
+    font-family: "tahoma";
+    font-size: 13px;
+    color: black;
+}
+
+.samefont5 {
+    font-family: "tahoma";
+    font-size: 15px;
+}
+
+.samefont6 {
+    font-family: 'Brush Script MT', cursive;
+    font-size: 20px;
+    color: #405063;
+    font-weight: bold;
+}
+
+html {
+    margin: 0%;
+    padding: 0%;
+}
+
+.my-table th,
+.my-table td {
+    border: 2px solid #C1CBD7;
+}
+
+.my-table {
+    border-collapse: collapse;
+    width: 70%;
+}
+
+
+
+.my-table2 {
+    border-collapse: collapse;
+    width: 50%;
+    border: 1px solid #008080;
+}
