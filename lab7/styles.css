@@ -8,7 +8,7 @@ body {
 h1 {
     color: #1170ff;
     font-size: 24px;
-    background-color: #2f88a3;
+    background-color: #2dafd6;
     padding: 15px;
     border-radius: 5px;
     color: rgb(0, 0, 0);
@@ -33,7 +33,7 @@ li {
     transition: background-color 0.3s, transform 0.2s;
 }
 li.completed {
-    background-color: #d4edda;
+    background-color: #259460;
     text-decoration: line-through;
 }
 input[type="text"] {
