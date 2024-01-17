@@ -6,16 +6,16 @@ document.addEventListener("DOMContentLoaded", function () {
     let todos = [];
     // เพิ่มรายการ Todo
     function addTodo() {
-        const todoText = todoInput.value.trim();
+        const todoText = todoInput.value.trim(); //ฟังก์ชันนี้ดึงค่าจากอิลิเมนต์ input ที่มี id เป็น todoInput และทำการตัดช่องว่างที่อยู่หน้าและหลังข้อความออก จากนั้นกำหนดค่านี้ให้กับตัวแปร todoText
         if (todoText !== "") {
             const todoItem = {
     
             text: todoText,
             completed: false,
     };
-    todos.push(todoItem);
+    todos.push(todoItem); //เพิ่ม Todo เข้า Array:
     renderTodoList();
-    todoInput.value = "";
+    todoInput.value = ""; //ล้างค่า Input Field:
     }
 }
 
@@ -33,14 +33,14 @@ document.addEventListener("DOMContentLoaded", function () {
 
 // แสดงรายการ Todo บนหน้าเว็บ
 function renderTodoList() {
-    console.log(todos);
-    todoList.innerHTML = "";
+    console.log(todos);  //ฟังก์ชันนี้นำอาร์เรย์ todos และแสดงในคอนโซล (console) เพื่อดูสถานะปัจจุบันของ todo list 
+    todoList.innerHTML = ""; //ลบข้อมูลที่มีอยู่ใน Todo List:
     for (let i = 0; i < todos.length; i++) {
         const todoItem = todos[i];
         const listItem = document.createElement("li");
-    listItem.textContent = todoItem.text;
+    listItem.textContent = todoItem.text; //กำหนดข้อความให้เป็น List Item:
     if (todoItem.completed) {
-        listItem.classList.add("completed");
+        listItem.classList.add("completed"); //ตรวจสอบสถานะของ Todo และเพิ่ม Class ตามต้องการ
     }
     const deleteButton = document.createElement("button");
     deleteButton.textContent = "ลบ";
@@ -65,3 +65,4 @@ function renderTodoList() {
     // แสดงรายการ Todo คร้ังแรก
     renderTodoList();
 });
+
