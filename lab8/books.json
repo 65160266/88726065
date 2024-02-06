@@ -1,0 +1,25 @@
+{
+    "books": [
+      {
+        "id": 1,
+        "name": "6 องศาโลกาวินาศ (Six Degrees)",
+        "price": "310",
+        "author1": "มาร์ก ไลนัส",
+        "author2": "ศิริพงษ์ วิทยวิโรจน์"
+      },
+      {
+        "id": 2,
+        "name": "ความมั่งคั่งปฏิวัติ (REVOLUTIONARY WEALTH)",
+        "price": "250",
+        "author1": "ALVIN TOFFLER",
+        "author2": "HEIDI TOFFLER"
+      },
+      {
+        "id": 3,
+        "name": "ขอบฟ้าที่ไม่ว่างเปล่า",
+        "price": "300",
+        "author1": "Annie Proulx",
+        "author2": "เจนจิรา เสรีโยธิน"
+      }
+    ]
+  }
